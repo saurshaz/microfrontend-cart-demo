@@ -3,8 +3,8 @@ services:
   nginx:
     image: nginx:1-alpine
     volumes:
-     - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
-     - ./nginx/common:/usr/share/nginx/html/common
+     - ./src/app/nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
+     - ./src/app/nginx/common:/usr/share/nginx/html/common
     ports:
      - "3000:3000"
     depends_on:
@@ -13,22 +13,22 @@ services:
      - team_red
 
   team_blue:
-    build: ./team-blue
+    build: ./src/app/team-blue
     ports:
      - "3001:3001"
     volumes:
-     - ./team-blue/src:/code/src
+     - ./src/app/team-blue/src:/code/src
 
   team_green:
-    build: ./team-green
+    build: ./src/app/team-green
     ports:
      - "3002:3002"
     volumes:
-     - ./team-green/src:/code/src
+     - ./src/app/team-green/src:/code/src
 
   team_red:
-    build: ./team-red
+    build: ./src/app/team-red
     ports:
      - "3003:3003"
     volumes:
-     - ./team-red/src:/code/src
+     - ./src/app/team-red/src:/code/src

@@ -1,16 +1,18 @@
-# Micro Frontends
+## MicroFrontends based Shopping Cart Demo
 **Extending the Microservice Paradigms to Web Development**
 
-The actual site can be found at [micro-frontends.org](https://micro-frontends.org/).
+- All credits to the origin Michael Geers [@naltatis](https://twitter.com/naltatis) 
+- Great talks on microfrontends (all different views)
 
-## Author
+- `https://www.youtube.com/watch?v=dTW7eJsIHDg`
+- `https://www.youtube.com/watch?v=Bnmy5zMY14s`
+- `https://www.youtube.com/watch?v=BuRB3djraeM`  
 
-Michael Geers [@naltatis](https://twitter.com/naltatis)
 
-## Contribute
-
-The site is hosted via Github Pages (see `index.md`).
-So feel free to contribute by submitting issues or pull requests.
+### Note that - 
+- Don't use microfrontend blindly. 
+- `https://rangle.io/blog/five-things-to-consider-before-choosing-micro-frontends/`
+```As Evan You said during his presentation at Rangle.io's Vue meetup, the complexity of the libraries and frameworks you use should not overshadow the complexity of the app```
 
 ## License
 
