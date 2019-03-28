@@ -2,8 +2,9 @@
 **Extending the Microservice Paradigms to Web Development**
 
 - All credits to the origin Michael Geers [@naltatis](https://twitter.com/naltatis) 
-- Great talks on microfrontends (all different views)
+- and `https://github.com/neuland/micro-frontends` @neuland
 
+- Great talks on microfrontends (all different views)
 - `https://www.youtube.com/watch?v=dTW7eJsIHDg`
 - `https://www.youtube.com/watch?v=Bnmy5zMY14s`
 - `https://www.youtube.com/watch?v=BuRB3djraeM`  
