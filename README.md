@@ -14,7 +14,7 @@
 - Don't use microfrontend blindly. 
 - `https://rangle.io/blog/five-things-to-consider-before-choosing-micro-frontends/`
 - One Quote that makes sense:
-```As Evan You said during his presentation at Rangle.io's Vue meetup, the complexity of the libraries and frameworks you use should not overshadow the complexity of the app```
+```the complexity of the libraries and frameworks you use should not overshadow the complexity of the app```
 
 ## License
 
