@@ -1,0 +1,19 @@
+0 silly argv { _: [ 'run' ],
+0 silly argv   scope: 'team-red',
+0 silly argv   lernaVersion: '3.13.1',
+0 silly argv   '$0':
+0 silly argv    '/Users/saurabhsharma/.asdf/installs/nodejs/11.11.0/.npm/bin/lerna',
+0 silly argv   script: 'build' }
+1 notice cli v3.13.1
+2 verbose rootPath /Users/saurabhsharma/dev/projects/garage/samplesWs/micro-frontends/microfrontend-cart-demo
+3 info versioning independent
+4 info filter [ 'team-red' ]
+5 error TypeError: Cannot read property 'split' of undefined
+5 error     at Minimatch.match (/Users/saurabhsharma/.asdf/installs/nodejs/11.11.0/.npm/lib/node_modules/lerna/node_modules/minimatch/minimatch.js:717:9)
+5 error     at /Users/saurabhsharma/.asdf/installs/nodejs/11.11.0/.npm/lib/node_modules/lerna/node_modules/minimatch/minimatch.js:691:15
+5 error     at Array.filter (<anonymous>)
+5 error     at Function.minimatch.match (/Users/saurabhsharma/.asdf/installs/nodejs/11.11.0/.npm/lib/node_modules/lerna/node_modules/minimatch/minimatch.js:690:15)
+5 error     at /Users/saurabhsharma/.asdf/installs/nodejs/11.11.0/.npm/lib/node_modules/lerna/node_modules/multimatch/index.js:25:33
+5 error     at Array.reduce (<anonymous>)
+5 error     at module.exports (/Users/saurabhsharma/.asdf/installs/nodejs/11.11.0/.npm/lib/node_modules/lerna/node_modules/multimatch/index.js:17:18)
+5 error     at filterPackages (/Users/saurabhsharma/.asdf/installs/nodejs/11.11.0/.npm/lib/node_modules/lerna/node_modules/@lerna/filter-packages/filter-packages.js:44:28)

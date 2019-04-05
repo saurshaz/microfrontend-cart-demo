@@ -11,6 +11,14 @@ services:
      - team_blue
      - team_green
      - team_red
+     - team_yellow
+
+  team_yellow:
+    build: ./src/app/team-yellow
+    ports:
+     - "8080:8080"
+    volumes:
+     - ./src/app/team-yellow/src:/code/src
 
   team_blue:
     build: ./src/app/team-blue

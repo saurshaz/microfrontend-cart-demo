@@ -16,6 +16,13 @@
 - One Quote that makes sense:
 ```the complexity of the libraries and frameworks you use should not overshadow the complexity of the app```
 
+
+### Steps to Setup
+- `lerna run bootstrap`
+- `lerna run build`
+- `docker-compose up --build`
+- Open in browser `https://localhost:3000`
+
 ## License
 
 The MIT License

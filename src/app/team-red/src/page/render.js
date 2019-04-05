@@ -43,6 +43,7 @@ export default function renderPage(sku = 't_porsche') {
   if (!variant) { return '<pre>no product not found</pre>'; }
   return `
     <h1 id="store">The Model Store</h1>
+    <yellow-vue></yellow-vue>
     <blue-basket id="basket"><!--#include virtual="/blue-basket" --></blue-basket>
     <div id="image"><div><img src="${variant.image}" alt="${variant.name}" /></div></div>
     <h2 id="name">${product.name} <small>${variant.name}</small></h2>
